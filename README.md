@@ -103,11 +103,11 @@ Le tri fusion de listes chaînées est également à implémenter dans `tri_fusi
 ## Conclusion – GTA
 
 11. Pour conclure le TP, trier la liste complète des jeux vidéo successivement par mois et annee, puis l'afficher sur la sortie standard de votre programme
-- Filtrer ensuite cette sortie pour extraire les lignes contenant les chaînes `Grand Theft Auto` et `PS`, puis enregistrer le résultat dans le fichier `gta.txt` à l'aide de la commande :
+- Filtrer ensuite cette sortie pour extraire les lignes contenant la chaîne `Grand Theft`, puis enregistrer le résultat dans le fichier `gta.txt` à l'aide de la commande :
 
 ```bash
-./prog | grep "Grand Theft Auto" | grep "PS" > gta.txt
+./prog | grep "Grand Theft" > gta.txt
 ```
-- Consulter le fichier généré `gta.txt` et déterminer les dates de sortie des jeux GTA sur PlayStation.
+- Consulter le fichier généré `gta.txt` et déterminer les dates de sortie des jeux GTA.
 
 
